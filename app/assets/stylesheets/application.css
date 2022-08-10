@@ -14,57 +14,56 @@
  *= require_self
  */
 
- @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400;500;600;700&family=Montserrat:wght@300&family=Roboto:wght@400;500;700&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400;500;600;700&family=Montserrat:wght@300&family=Roboto:wght@400;500;700&display=swap');
+
+* {
   font-family: 'Montserrat', sans-serif;
 }
 
-.hero-p{
+.hero-p {
   font-family: 'League Spartan', sans-serif;
   font-weight: bold;
 }
 
-.hero-title{
+.hero-title {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
 
-.profile_picture{
+.profile_picture {
   width: 100px;
 }
 
-.hiden{
-	display: none;
+.hiden {
+  display: none;
 }
 
-.stack{
-width: max-width;
-border: 3px solid;
-padding: 0.5rem;
-margin-left: 0.5rem;
-border-radius: 0.8rem;
-border-image: linear-gradient(45deg, #1DA1F2, #f4fdff) 1;
+.stack {
+  width: max-width;
+  border: 3px solid;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 0.8rem;
+  border-image: linear-gradient(45deg, #1da1f2, #f4fdff) 1;
 }
 
-#footer{
+#footer {
   width: max-width;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-
 }
 
-#social{
+#social {
   display: flex;
   gap: 1.1rem;
   justify-content: space-between;
+}
 
-  }
-
-#social li{
-	border-radius: 50%;
-	border: thin solid #D8E2DC;
-	box-sizing: border-box; 
-	transition: all 0.5s ease;
+#social li {
+  border-radius: 50%;
+  border: thin solid #d8e2dc;
+  box-sizing: border-box;
+  transition: all 0.5s ease;
   margin: 0.5rem;
   padding: 0.3rem;
 }
@@ -93,88 +92,81 @@ border-image: linear-gradient(45deg, #1DA1F2, #f4fdff) 1;
   transition: all 0.5s ease;
 }
 
-#social li:nth-child(3):hover{
-
-  border: 5px solid #25D366;
-  box-shadow: 0 0 15px #25D366;
-  transition: all 0.5s ease;
-
-}
-
-#social li:nth-child(3) a{
-  color: #25D366;
-  text-shadow: 0 0 15px #25D366;
+#social li:nth-child(3):hover {
+  border: 5px solid #25d366;
+  box-shadow: 0 0 15px #25d366;
   transition: all 0.5s ease;
 }
 
-#social li:nth-child(4):hover{
+#social li:nth-child(3) a {
+  color: #25d366;
+  text-shadow: 0 0 15px #25d366;
+  transition: all 0.5s ease;
+}
 
+#social li:nth-child(4):hover {
   border: 5px solid #e1930d;
   box-shadow: 0 0 15px #e1930d;
   transition: all 0.5s ease;
-
 }
 
-#social li:nth-child(4) a{
+#social li:nth-child(4) a {
   color: #e1930d;
   text-shadow: 0 0 15px #e1930d;
   transition: all 0.5s ease;
 }
 
-#social li:nth-child(5):hover{
-
-  border: 5px solid #1DA1F2;
-  box-shadow: 0 0 15px #1DA1F2;
+#social li:nth-child(5):hover {
+  border: 5px solid #1da1f2;
+  box-shadow: 0 0 15px #1da1f2;
   transition: all 0.5s ease;
-
 }
 
-#social li:nth-child(5) a{
-  color: #1DA1F2;
-  text-shadow: 0 0 15px #1DA1F2;
+#social li:nth-child(5) a {
+  color: #1da1f2;
+  text-shadow: 0 0 15px #1da1f2;
   transition: all 0.5s ease;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 .no-scrollbar::-webkit-scrollbar {
-	display: none;
+  display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .no-scrollbar {
-	-ms-overflow-style: none;  /* IE and Edge */
-	scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 @media only screen and (min-width: 641px) {
-	#footer{
-		position: fixed;
-		right: 1.5rem;
-		top: 25%;
-		width: max-width;
-		z-index: 9999;
-		padding-top: 1.5rem;
-		padding-bottom: 1.5rem;
+  #footer {
+    position: fixed;
+    right: 1.5rem;
+    top: 25%;
+    width: max-width;
+    z-index: 9999;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
 
-	}
-
-	#social{
+  #social {
     display: flex;
-		flex-direction: column;
-		gap: 1.5rem;
-  	}
-	
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 }
-.hero-content{
-  border-image: linear-gradient(45deg, #1DA1F2, #f4fdff) 1;
+
+.hero-content {
+  border-image: linear-gradient(45deg, #1da1f2, #f4fdff) 1;
   margin-bottom: 1.5rem !important;
 }
 
-#contact li{
-	border-radius: 50%;
-	border: 3px solid #D8E2DC;
-	box-sizing: border-box; 
-	transition: all 0.5s ease;
+#contact li {
+  border-radius: 50%;
+  border: 3px solid #d8e2dc;
+  box-sizing: border-box;
+  transition: all 0.5s ease;
 }
 
 #contact li:nth-child(1):hover {
@@ -201,15 +193,13 @@ border-image: linear-gradient(45deg, #1DA1F2, #f4fdff) 1;
   transition: all 0.5s ease;
 }
 
-#contact li:nth-child(3):hover{
-
+#contact li:nth-child(3):hover {
   border: 5px solid #00aced;
   box-shadow: 0 0 15px #00aced;
   transition: all 0.5s ease;
-
 }
 
-#contact li:nth-child(3) a{
+#contact li:nth-child(3) a {
   color: #00aced;
   text-shadow: 0 0 15px #00aced;
   transition: all 0.5s ease;
