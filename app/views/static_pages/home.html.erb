@@ -1,4 +1,19 @@
-<div>
-  <h1 class="font-bold text-4xl">StaticPages#home</h1>
-  <p>Find me in app/views/static_pages/home.html.erb</p>
+
+<div class="hero min-h-screen bg-site_dark_blue">
+  <div class="hero-content text-center">
+    <div class="max-w-md ">
+      <div class="avatar">
+        <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+          <%= image_tag("profile.jpg") %> 
+        </div>
+      </div>
+        <h1 class="text-5xl hero-title font-bold text-site_gold">David Lafontant</h1>
+        <p class="text-4xl text-site_light_gray hero-title">Full Stack Web Developer</p>
+        <p class="hero-p text-white">Javascript, Ruby, PostgreSQL, Python and R</p>
+        <p class="hero-p text-white">I am eager to help you solve your web development challenges!</p>
+        <p class="btn btn-primary">
+          <%= link_to "Download Resume", static_pages_resume_path %>      
+        </p>
+    </div>
+  </div>
 </div>
