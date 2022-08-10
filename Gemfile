@@ -69,3 +69,4 @@ end
 
 gem 'tailwindcss-rails'
 gem 'rubocop'
+gem 'importmap-rails'
