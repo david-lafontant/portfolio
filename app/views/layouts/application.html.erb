@@ -5,16 +5,42 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
-
+    
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
     <%= javascript_importmap_tags %>
+
   </head>
 
-  <body>
-    <main class="container mx-auto mt-28 px-5 flex">
-      <%= yield %>
-    </main>
+  <body class="bg-site_dark_blue">
+
+    <div class="drawer">
+      <input id="my-drawer-3" type="checkbox" class="drawer-toggle" /> 
+      <div class="drawer-content flex flex-col">
+        <!-- Navbar -->
+        <div class="w-full navbar px-10 ">
+          <div class="flex-none lg:hidden">
+            <label for="my-drawer-3" class="btn btn-square btn-ghost">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </label>
+          </div> 
+          <%= render 'layouts/navbar' %>
+        </div>
+        <div class="container text-site_light_gray">
+          <br>
+          <% flash.each do |key, message| %>
+            <div class="alert alert-<%= key %>"><%= message %></div>
+          <% end %>
+        </div>
+
+        <%= yield %>
+        <%= render 'layouts/footer' %>
+      </div>
+
+        <%= render 'layouts/sidebar' %>
+
+
+    </div>
   </body>
 </html>
