@@ -68,3 +68,4 @@ group :development do
 end
 
 gem 'tailwindcss-rails'
+gem 'rubocop'
