@@ -1,0 +1,57 @@
+<div class="hero min-h-screen">
+  <div class="hero-content flex-col lg:flex-row-reverse">
+    <div class="text-center lg:text-left text-white">
+      <h1 class="text-5xl font-bold">Get in touch!</h1>
+      <p class="py-6">I am here to build your web application and grow your business!</p>
+      <ul>
+        <li class="btn gap-2">
+          <a href="mailto:lafontant.david@gmail.com" title="link to send an email to david lafontant">lafontant.david@gmail.com</a></li>
+        </li>
+        <li class="btn gap-2">
+          <a href="tel:+8097599396" title="link to call david lafontant">+8097599396</a>
+        </li>
+      </ul>
+    </div>
+    <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-uranian_blue">
+      <div class="card-body">
+       <%= form_for @contact do |f| %>
+          <div class="form-control">
+            <label class="label">
+              <span class="label-text text-site_dark_blue"> <%= f.label :name %></span>
+            </label>
+            <%= f.text_field  :name, required: true, :class => "input input-bordered", placeholder: "Enter your name please" %>
+          </div>
+          <div class="form-control">
+            <label class="label">
+              <span class="label-text text-site_dark_blue"> <%= f.label :email %></span>
+            </label>
+            <%= f.text_field :email, required: true, class: "input input-bordered", placeholder: "Enter your email please" %>
+          </div>
+          
+          <div class="form-control">
+            <label class="label">
+              <span class="label-text text-site_dark_blue"> <%= f.label :message %></span>
+            </label>
+            <%= f.text_area :message, rows: 8, cols: 40, required: true, class: "textarea textarea-bordered h-24 text-white", 
+            placeholder: "Send me a message"%><br>
+          </div>
+
+      <div class= "d-none hidden">
+        <%= f.label :nickname %>
+        <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
+      </div>
+
+
+        <div class="form-control mt-6">
+          <button class="btn btn-primary">
+       <%= f.submit 'Send Message' %>
+          
+          
+          </button>
+                
+        </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
