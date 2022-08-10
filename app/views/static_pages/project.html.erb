@@ -16,7 +16,7 @@
 <div >
 <% @profile_data.each  do |item| %>
   <% item.each_value do |value|  %>
-<div class="hero   min-h-fit bg-site_dark_blue border-box ">
+<div class="hero min-w-fit min-h-fit bg-site_dark_blue border-box ">
   <div class="hero-content flex-col lg:flex-row glass border-box">
     <img src="<%= value["openGraphImageUrl"]%>" alt="social preview of<%= value["name"] %>" class="max-w-sm rounded-lg shadow-2xl" >
     <div class="prose lg:prose-xl">
