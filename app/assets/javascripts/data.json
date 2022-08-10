@@ -1,0 +1,60 @@
+{
+  "data": {
+    "repositoryOwner": {
+      "itemShowcase": {
+        "items": {
+          "edges": [
+            {
+              "node": {
+                "name": "Awesome-Books",
+                "url": "https://github.com/david-lafontant/Awesome-Books",
+                "description": "AWESOME BOOKS is web application project that allows users to add/remove books from a list and display them on the screen",
+                "openGraphImageUrl": "https://repository-images.githubusercontent.com/448865710/d514d8d5-981e-42bf-a69e-0a80eac526d5"
+              }
+            },
+            {
+              "node": {
+                "name": "Recipe-App",
+                "url": "https://github.com/david-lafontant/Recipe-App",
+                "description": "Recipe-App keep track of all user's recipes, recipe’s ingredients lists, and user’s food inventory. The user can generate a shopping list based on the inventory. Recipe-App allows a user to share recipes.",
+                "openGraphImageUrl": "https://repository-images.githubusercontent.com/500589881/756e38fd-2fdd-4644-9564-c3a63582b8da"
+              }
+            },
+            {
+              "node": {
+                "name": "Leaderboard",
+                "url": "https://github.com/david-lafontant/Leaderboard",
+                "description": "Leaderboard is a web application that displays sorted scores. Leaderboard stores participants' scores in an API. The participants’ scores are retrieved, sorted, and displayed each time the refresh button is pressed",
+                "openGraphImageUrl": "https://repository-images.githubusercontent.com/457031042/2a4e4b7f-6b31-49af-9963-5fa23f5eda4f"
+              }
+            },
+            {
+              "node": {
+                "name": "Zoo-Animals",
+                "url": "https://github.com/david-lafontant/Zoo-Animals",
+                "description": "Zoo-Animal is a web application that displays zoo animals' information details. It retrieves data from Zoo Animal API, and displays all the animals retrieved and the data related to each animal.",
+                "openGraphImageUrl": "https://repository-images.githubusercontent.com/473316113/8b8f3923-a101-4115-8f83-94fe40980d44"
+              }
+            },
+            {
+              "node": {
+                "name": "Budget-App",
+                "url": "https://github.com/david-lafontant/Budget-App",
+                "description": "Budget-App is a mobile web application. It allows a registered user to manage an expense budget by categorizing and tracking each expense. Budget-App is built with Ruby on Rails. ",
+                "openGraphImageUrl": "https://repository-images.githubusercontent.com/503026039/8910b94e-59e9-41e4-8779-317d4dd83ff5"
+              }
+            },
+            {
+              "node": {
+                "name": "W.G.T-Summit-2021",
+                "url": "https://github.com/david-lafontant/W.G.T-Summit-2021",
+                "description": "Web portal of the World Globalization Trade Summit 2021. W.G.T-Summit-2021 inform about WGT summit (venue, speaker, date, etc..)",
+                "openGraphImageUrl": "https://repository-images.githubusercontent.com/444822382/41104f77-8bfa-4a88-81e1-2ebd524a3577"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
